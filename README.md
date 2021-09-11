@@ -1,4 +1,7 @@
-## Data Science
-### Data Visualization
+# Data Science
+## Data Visualization
 
-View [chart](https://hernanzini.github.io/infovis/mom2021w36.html) 
+### Index
+
+1 - Abortion Support - [chart](https://hernanzini.github.io/infovis/mom2021w36.html) 
+
