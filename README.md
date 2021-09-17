@@ -3,6 +3,7 @@
 
 ### Index
 
-1 - Abortion Support by Ariel [chart](https://hernanzini.github.io/infovis/mom2021w36.html) 
-1 - Abortion Support by Hernán [chart](https://hernanzini.github.io/infovis/mom2021w36_zini.html) 
+1)
+* Abortion Support by Ariel [chart](https://hernanzini.github.io/infovis/mom2021w36.html)
+* Abortion Support by Hernán [chart](https://hernanzini.github.io/infovis/mom2021w36_zini.html) 
 
