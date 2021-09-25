@@ -10,3 +10,5 @@ Class 1)
 Class 2)
 * 20 Largest Solar Power Plants [chart](https://hernanzini.github.io/infovis/mom2021w37_zini.html)
 
+* Flourish bubbles [chart](https://hernanzini.github.io/infovis/mom2021w38_zini.html)
+
