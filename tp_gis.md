@@ -10,7 +10,7 @@
 
 1. Descargamos los archivos de circuitos de [aquí](https://mapa2.electoral.gov.ar/descargas)
 2. Descargamos los datos de la provincia del **CHACO** de [aquí](https://www.argentina.gob.ar/elecciones/resultados-del-recuento-provisional-de-las-elecciones-paso)
-3. Descargamos el shape de Departamentos de la página del [Indec](https://datos.gob.ar/ar/dataset/jgm-servicio-normalizacion-datos-geograficos/archivo/jgm_8.16), y tomamos solo los polígonos de CHACO.
+3. Descargamos el shape de Departamentos de la página del [Indec](https://www.indec.gob.ar/ftp/cuadros/territorio/codgeo/Codgeo_Pais_x_dpto_con_datos.zip), y tomamos solo los polígonos de CHACO.
 4. Pasamos todo a un servidor _Postgres_, y construimos una base de datos con las siguientes tablas: _Circuitos, Resultados, y Deptos_
 5. Se unificaron los datos de circuitos para poder hacer los joins.
 6. Creamos una nueva tabla con los totales de **votos positivos** para el cargo de **Diputados Provinciales** por partido, total general y porcentaje por partido por circuito y juntamos con circuitos para obtener la geometría.
@@ -88,3 +88,5 @@
 9. En _QGis_ repetimos paso 7 para crear una capa con los resultados obtenidos en el punto anterior, y luego generamos un gráfico por cada partido, con las mismas consideraciones de circuitos (colores y gradientes).
 
 10. Obtenemos los porcentajes totales por partido, capturamos las imágenes de los mapas y armamos la presentación final con los resultaods. _Fin_
+
+___
