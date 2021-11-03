@@ -3,9 +3,10 @@
 ## Análisis de Datos Científicos y Geográficos - Comisión: Ecom
 
 > ### _Integrantes:_
->- Basilio, Claudio
->- Scornik, Carolina
->- Zini, Hernán
+>
+> - Basilio, Claudio
+> - Scornik, Carolina
+> - Zini, Hernán
 
 1. Descargamos los archivos de circuitos de [aquí](https://mapa2.electoral.gov.ar/descargas)
 2. Descargamos los datos de la provincia del **CHACO** de [aquí](https://www.argentina.gob.ar/elecciones/resultados-del-recuento-provisional-de-las-elecciones-paso)
@@ -14,7 +15,7 @@
 5. Se unificaron los datos de circuitos para poder hacer los joins.
 6. Creamos una nueva tabla con los totales de **votos positivos** para el cargo de **Diputados Provinciales** por partido, total general y porcentaje por partido por circuito y juntamos con circuitos para obtener la geometría.
 
-### Para ello ejecutamos la siguiente consulta:
+> Para ello ejecutamos la siguiente consulta:
 
 ```sql
 select * from "Circuitos" c
@@ -82,8 +83,9 @@ where st_intersects(d.geom, ST_Centroid(dpc.geom))
 group by d.departamen, d.geom ;
 ```
 
-### Utilizamos la función st_intersects, para condicionar los resultados a los departamentos que intersecten con el centroide de cada circuito.
+> Utilizamos la función [st_intersects](https://postgis.net/docs/ST_Intersects.html), para condicionar los resultados a los departamentos que intersecten con el centroide de cada circuito.
 
 9. En _QGis_ repetimos paso 7 para crear una capa con los resultados obtenidos en el punto anterior, y luego generamos un gráfico por cada partido, con las mismas consideraciones de circuitos (colores y gradientes).
 
 10. Obtenemos los porcentajes totales por partido, capturamos las imágenes de los mapas y armamos la presentación final con los resultaods. _Fin_
+
