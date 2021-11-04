@@ -90,6 +90,5 @@
 10. Obtenemos los porcentajes totales por partido, capturamos las imágenes de los mapas y armamos la presentación final con los resultaods. _Fin_
 
 ___
-
-   ## [Presentación de resultados](https://docs.google.com/presentation/d/1zTNuTZG0n5dKC6Z9aozAA6-pREvnwd6S1KLecAKHrfo/edit?usp=sharing)
+## [Presentación de resultados](https://docs.google.com/presentation/d/1zTNuTZG0n5dKC6Z9aozAA6-pREvnwd6S1KLecAKHrfo/edit?usp=sharing)
 ___
