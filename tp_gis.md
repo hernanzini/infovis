@@ -88,7 +88,8 @@
 9. En _QGis_ repetimos paso 7 para crear una capa con los resultados obtenidos en el punto anterior, y luego generamos un gráfico por cada partido, con las mismas consideraciones de circuitos (colores y gradientes).
 
 10. Obtenemos los porcentajes totales por partido, capturamos las imágenes de los mapas y armamos la presentación final con los resultaods. _Fin_
+
 ___
 
-   >## [Presentación de resultados](https://docs.google.com/presentation/d/1zTNuTZG0n5dKC6Z9aozAA6-pREvnwd6S1KLecAKHrfo/edit?usp=sharing)
+   ## [Presentación de resultados](https://docs.google.com/presentation/d/1zTNuTZG0n5dKC6Z9aozAA6-pREvnwd6S1KLecAKHrfo/edit?usp=sharing)
 ___
